@@ -39,23 +39,6 @@ for i in olx:
 print(productos, len(productos))
 
 
-# In[ ]:
-
-
-# Como hay repeticiones vamos a restringir que solo sean los 20 primeros
-equipos = list()
-
-count = 0
-for i in eq:
-    if count < 20:
-        equipos.append(i.text)
-    else:
-        break
-    count +=1
-    
-print(equipos, len(equipos))
-
-
 # In[11]:
 
 
